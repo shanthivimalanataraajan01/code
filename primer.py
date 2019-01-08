@@ -1,6 +1,6 @@
+#vimala
 m,n=map(int,input().split())
 x=' '
-flag=0
 for n in range(m+1,n):
 	if n>0:
 		for i in range(2,n):
