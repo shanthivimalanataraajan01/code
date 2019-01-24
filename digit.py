@@ -1,3 +1,4 @@
+#vim,
 q=input()
 if q.isdigit():
 	print("yes")
