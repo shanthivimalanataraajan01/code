@@ -1,3 +1,4 @@
+#vim
 a=input()
 b=0
 for word in a.split():
