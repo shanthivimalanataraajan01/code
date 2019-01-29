@@ -1,4 +1,4 @@
-#print(c)
+#print(c)s
 w=input()
 c=0
 for i in range(0,len(w)):
