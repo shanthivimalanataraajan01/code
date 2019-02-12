@@ -1,6 +1,5 @@
-N=int(input()) 
-a=2**N
-if a%2==0:
-   print('yes') 
+a=int(input())
+if(a&(a-1)):
+	print("no")
 else:
-   print('no') 
+	print("yes")
