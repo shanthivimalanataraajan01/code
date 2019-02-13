@@ -1,3 +1,4 @@
+#ms
 a=int(input())
 if a%10==1:
 	print("one")
