@@ -1,22 +1,22 @@
 a=int(input())
 if a%2==1:
-	print("one")
+	print("One")
 if a%2==2:
-	print("two")
+	print("Two")
 if a%2==3:
-	print("three")
+	print("Three")
 if a%2==4:
-	print("four")
+	print("Four")
 if a%2==5:
-	print("five")
+	print("Five")
 if a%2==6:
-	print("six")
+	print("Six")
 if a%2==7:
-	print("seven")
+	print("Seven")
 if a%2==8:
-	print("eight")
+	print("Eight")
 if a%2==9:
-	print("nine")
+	print("Nine")
 if a%2==10:
-	print("ten")
+	print("Ten")
 										
