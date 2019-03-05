@@ -1,6 +1,6 @@
-#ms
-n=int(input())
-a=list(map(int,input().split()))
-c=[]
-b=sorted(a)
-print(b[c])
+# your code goes here
+m=int(input())
+n=list(map(int,input().split()))
+a=sorted(n)
+print(a[1])
+		
