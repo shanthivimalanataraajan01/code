@@ -1,3 +1,4 @@
-str=input()
-p="".join(reversed(str))
-print(p)
+#ms
+s=input()
+m="".join(reversed(s))
+print(m)
