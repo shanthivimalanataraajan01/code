@@ -1,11 +1,5 @@
-# your code goes here
-s= int(input(""))
-m = list(map(int,input().split()))
-for i in range(s-1,-1,-1):
-    if(i == 0):
-        print(m[i],end="")
-    else:
-        print(m[i],end="->")
-    
-
-	
+n=int(input())
+a=[int(i) for i in input().split()]
+b=a[::-1]
+for i in range(0,len(b)):
+	print(b[i],end="->")
