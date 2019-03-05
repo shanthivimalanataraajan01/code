@@ -1,6 +1,6 @@
-#ms
+#ms sorted
 n=int(input())
 m=list(map(int,input().split()))
-a=sorted(m)
-print(a[1])
+b=sorted(m)
+print(b[1])
 		
