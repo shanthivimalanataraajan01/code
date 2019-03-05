@@ -1,5 +1,5 @@
 #ms
-a=int(input())
+a=input()
 if a.isalpha():
 	print("No")
 else:
