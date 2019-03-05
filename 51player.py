@@ -1,6 +1,6 @@
-# your code goes herenm
-m=int(input())
-n=list(map(int,input().split()))
-a=sorted(n)
+#ms
+n=int(input())
+m=list(map(int,input().split()))
+a=sorted(m)
 print(a[1])
 		
