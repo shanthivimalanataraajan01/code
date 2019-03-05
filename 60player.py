@@ -1,5 +1,5 @@
 #ms
-m,m=map(str,input().split())
+m,n=map(str,input().split())
 for i in m:
 	if i in n:
 		print('yes')
