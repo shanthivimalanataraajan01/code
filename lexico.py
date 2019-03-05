@@ -1,8 +1,8 @@
 #ms
 s=input()
-li=[]
+l=[]
 for i in s:
-	li.append(i)
-li.sort()
-for i in range(len(li)):
-	print(li[i],end='')
+	l.append(i)
+l.sort()
+for i in range(len(l)):
+	print(l[i],end='')
