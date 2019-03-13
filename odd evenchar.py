@@ -1,4 +1,4 @@
-# your code goes here
+# your code goes herems
 string = input()
 list1 = []
 list2 = []
