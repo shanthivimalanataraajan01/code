@@ -1,8 +1,8 @@
-# your code goes here
+# your code goes herems
 k=int(input())
-l1=[]
+l=[]
 for i in range(k):
-	l=list(map(int,input().split()))
-	l1.extend(l)
-l1.sort()
-print(*l1)
+	m=list(map(int,input().split()))
+	l.extend(m)
+l.sort()
+print(*l)
