@@ -1,3 +1,4 @@
 #ms
-a,b=map(int,input().split())
-print(str(a)+str(b))
+a,b=map(str,input().split())
+c=a+b
+print(int(c))
