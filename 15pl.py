@@ -1,8 +1,6 @@
-n=input()
-l=[]
-for i in range(len(n)):
-    a=n.count(n[i])
-    l.append(a)
-a=max(l)
-b=l.index(a)
-print(a[b])
+a=str(input())
+b=[]
+for i in range (0,len(a)):
+    b.append(a.count(a[i]))
+c=b.index(max(b))
+print(a[c])
