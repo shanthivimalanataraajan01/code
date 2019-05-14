@@ -1,7 +1,8 @@
+#ms
 n=int(input())
-l=list(map(int,input().split(" ")))
-for i in range(1,n):
-	if sum(l[:i])//len(l[:i])==sum(l[i:])//len(l[i:]):
+a=list(map(int,input().split(" ")))
+for i in range(a,n):
+	if sum(a[:i])//len(a[:i])==sum(a[i:])//len(a[i:]):
 		print("yes")
 		break
 else:
