@@ -4,9 +4,9 @@ c=len(a)
 d=len(b)
 e=""
 if c>d:
-	e=e+s[:d]+b
+	e=e+a[:d]+b
 elif d>c:
-	e=e+b[:c]+s
+	e=e+b[:c]+a
 else:
-	e=e+s+b
+	e=e+a+b
 print(e)
