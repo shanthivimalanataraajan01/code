@@ -1,11 +1,9 @@
-s="dhoni"
+#ms
 m=input()
-c=0
-for i in m:
-    if m.count(i)==s.count(i):
-                c+=1
-if c==len(m):
-    print("yes")
+s="dhoni"
+k=sorted(s)
+m=sorted(m)
+if k==m:
+	print("yes")
 else:
-    print("no")
-© 2019 GitHub, Inc.
+	print("no")
