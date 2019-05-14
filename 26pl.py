@@ -1,4 +1,4 @@
-#ms
+#msd
 import re
-s=input()
-print(re.sub(' +',' ',s))
+a=input()
+print(re.sub(' +',' ',a))
