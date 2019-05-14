@@ -1,3 +1,3 @@
 #ms
 n= input()
-print(''.join([ s[x:x+2][::-1] for x in range(0, len(s), 2) ]))
+print(''.join([n[a:a+2][::-1] for a in range(0, len(n), 2) ]))
