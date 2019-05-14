@@ -1,9 +1,12 @@
 #ms
-a,b=input().split()
-s=''
-if len(a)!=len(b):
-  d=min(len(a),len(b))
-  s=a[:d]+b[:d]
+a,b=map(str,input().split())
+c=len(a)
+d=len(b)
+e=""
+if c>d:
+	e=e+s[:d]+b
+elif d>c:
+	e=e+b[:c]+s
 else:
-  s=a+b
-print(s)
+	e=e+s+b
+print(e)
