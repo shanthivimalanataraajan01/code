@@ -1,3 +1,4 @@
+#m,s
 n,m=map(int,input().split())
 e=[]
 for i in range(m):
