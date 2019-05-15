@@ -1,13 +1,17 @@
-#ms
-a,b=input().split()
-n=sorted(a)
-k=sorted(b)
-if len(a)==len(b):
-  for i in range(len(a)):
-    if a[i]!=a[i]:
-      print("false")
-      break
-  else:
+a,b=map(str,input().split())
+c=[]
+d=[]
+for i in a:
+    if i not in c:
+        c.append(i)
+for i in b:
+    if i not in d:
+        d.append(i)
+e=0
+for i in c:
+    if c.count(i)==d.count(i):
+        e+=1
+if e==len(c) and c==len(d):
     print("true")
 else:
-  print("false")
+    print("false")
