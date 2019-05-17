@@ -3,7 +3,7 @@ m=input()
 a=""
 b=""
 for i in range(len(m)):
-    if k[i]=='1':
+    if m[i]=='1':
         a=a+m[i]+' '
     else:
         b=b+a
